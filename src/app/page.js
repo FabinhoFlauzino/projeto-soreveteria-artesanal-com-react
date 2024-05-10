@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <section>
+      <section className="section_hero">
         <h1>Sorvete Artesanal</h1>
       </section>
       <section>

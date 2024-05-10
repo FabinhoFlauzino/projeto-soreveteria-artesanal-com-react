@@ -3,6 +3,7 @@
   --yellow-dark: #c48b43;
   --black: #000000;
   --dark: #120e07;
+  --white: #FFFFFF;
 }
 
 *{
@@ -26,4 +27,19 @@ a {
   max-width: 1240px;
   width: 100%;
   margin: 0 auto;
+}
+
+.section_hero {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow);
+  padding: 10px;
+}
+
+.section_hero h1{
+  text-shadow: 1px 1px 2px var(--dark);
+  color: var(--white);
+  font-size: 60px;
 }
