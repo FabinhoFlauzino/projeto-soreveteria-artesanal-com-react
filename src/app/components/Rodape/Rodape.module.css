@@ -18,6 +18,7 @@
 
 .container_informacoes{
   display: flex;
+  flex-wrap: wrap;
   gap: 60px;
 }
 

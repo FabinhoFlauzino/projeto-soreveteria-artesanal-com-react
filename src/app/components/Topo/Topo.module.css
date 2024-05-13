@@ -31,3 +31,7 @@
   color: var(--black);
   font-weight: 500;
 }
+
+@media(max-with: 600px) {
+  
+}

@@ -45,5 +45,17 @@ a {
   text-shadow: 3px 5px 2px var(--gray);
   color: var(--white);
   font-size: 70px;
+  line-height: 1;
+  text-align: center;
   text-transform: uppercase;
+}
+
+@media(max-width: 900px) {
+  .section_hero {
+    height: 70vh;
+  }
+  
+  .section_hero h1{
+    font-size: 50px;
+  }
 }
